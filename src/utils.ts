@@ -70,7 +70,7 @@ export function renderDeleteIcon() {
       canvas?.requestRenderAll();
       return false;
     },
-    render: function (ctx, left, top, styleOverride, fabricObject) {
+    render: function (ctx, left, top, __styleOverride, fabricObject) {
       const size = 24;
       ctx.save();
       ctx.translate(left, top);
