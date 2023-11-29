@@ -61,7 +61,7 @@ export function renderDeleteIcon() {
     y: -0.5,
     offsetY: 16,
     cursorStyle: 'pointer',
-    mouseUpHandler: function (eventData, transform) {
+    mouseUpHandler: function (__eventData, transform) {
       const target: any = transform.target;
       const canvas = target.canvas;
       const id = target.get('id');
