@@ -18,8 +18,6 @@ import {
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-// const PDF_URL = 'https://arxiv.org/pdf/1708.08021.pdf';
-
 renderDeleteIcon();
 
 function App() {
