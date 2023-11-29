@@ -44,7 +44,6 @@ function App() {
     // trigerModal('close');
     getRender();
     setHasFileUploaded(true);
-    window.location.reload();
   };
 
   function renderPages(pdf: any) {
